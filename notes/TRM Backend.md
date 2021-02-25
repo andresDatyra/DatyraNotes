@@ -2,7 +2,7 @@
 attachments: [path_enviroment.png]
 title: TRM Backend
 created: '2021-02-25T22:21:40.340Z'
-modified: '2021-02-25T23:05:33.885Z'
+modified: '2021-02-25T23:13:59.837Z'
 ---
 
 # TRM Backend
@@ -36,7 +36,7 @@ C:\Users\YOUR_USER\AppData\Roaming\npm\sequelize -> C:\Users\YOUR_USER\AppData\R
 ```
 
 <p align="center">
-  <img src="@attachment/path_enviroment.png" width="400" alt="Notable">
+  <img src="https://github.com/andresDatyra/DatyraNotes/blob/main/attachments/path_enviroment.png" width="400" alt="Notable">
 </p>
 
 ### DEVELOPMENT Workflow
