@@ -2,7 +2,7 @@
 attachments: [path_enviroment.png]
 title: TRM Backend
 created: '2021-02-25T22:21:40.340Z'
-modified: '2021-02-25T23:49:07.909Z'
+modified: '2021-02-26T00:28:08.418Z'
 ---
 
 # TRM Backend
@@ -19,7 +19,7 @@ modified: '2021-02-25T23:49:07.909Z'
 
 #### Node Gyp - On Windows
 
-Install the current version of Python from the [Microsoft Store package](https://docs.python.org/3/using/windows.html#the-microsoft-store-package).
+Install the current version of Python
 
 Install tools and configuration manually:
 
