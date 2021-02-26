@@ -2,7 +2,7 @@
 attachments: [path_enviroment.png]
 title: TRM Backend
 created: '2021-02-25T22:21:40.340Z'
-modified: '2021-02-25T23:13:59.837Z'
+modified: '2021-02-25T23:49:07.909Z'
 ---
 
 # TRM Backend
@@ -14,6 +14,7 @@ modified: '2021-02-25T23:13:59.837Z'
 - Serverless framework `npm install serverless -g` -> https://serverless.com/
 - Node Gyp `npm install -g node-gyp` -> https://github.com/nodejs/node-gyp#installation
 - Sequelize `npm install -g sequelize cli` -> https://github.com/nodejs/node-gyp#installation
+- Install MySql -> https://dev.mysql.com/downloads/installer/
 
 
 #### Node Gyp - On Windows
@@ -49,7 +50,7 @@ copy `.env.example` file to a `.env.staging` file, and change its values
 
 #### Set-up database
 - create mysql schema named `trm-staging`
-- use name as DB env variable on .env file
+- use name as DB env variable on `.env.staging` file
 - Create database tables - `npm run migrate:staging`
 - add SLS_COGNITO_IDENTITY_ID=1234 on .env file(will use this as userId to seed data to mysql)
 - Add table data - `npm run seed:staging`
