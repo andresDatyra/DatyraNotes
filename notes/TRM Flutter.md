@@ -1,12 +1,12 @@
 ---
 title: TRM Flutter
 created: '2021-02-26T00:32:03.030Z'
-modified: '2021-03-16T22:42:57.111Z'
+modified: '2021-03-16T23:55:04.332Z'
 ---
 
 # TRM Flutter
 
-## Back-end App with Serverless, NodeJS and Apollo
+## Flutter App and Configuration
 
 ### Pre-requisites
 - Download and configure Android Studio -> https://developer.android.com/studio
@@ -15,7 +15,7 @@ modified: '2021-03-16T22:42:57.111Z'
 ## Getting Started
 
 1) Clone the project
-git clone project_path
+`git clone project_path`
 
 2) Switch to resimax-stabilisation branch
 
@@ -24,15 +24,15 @@ git clone project_path
 4) Change version in pubspec.yml `flutter: 1.22.0` 
 
 5) Generate files
-flutter pub get
-flutter pub run build_runner build
+`flutter pub get`
+`flutter pub run build_runner build`
 
 6) Run the project (main_prod/main_dev, hpl/resimaxvip) 
 `flutter run lib/main/hpl/main_dev.dart --flavor=hpl`
 
 3) Run the build via one of commands (ios/apk, release/debug, hpl/resimaxvip)
-flutter build ios -t lib/main/hpl/main_prod.dart --flavor=hpl --no-codesign
-flutter build apk -t lib/main/hpl/main_prod.dart --flavor=hpl
+`flutter build ios -t lib/main/hpl/main_prod.dart --flavor=hpl --no-codesign`
+`flutter build apk -t lib/main/hpl/main_prod.dart --flavor=hpl`
 
 ## Updating files with codegeneration
 After updating files that are used for codegeneration run:
